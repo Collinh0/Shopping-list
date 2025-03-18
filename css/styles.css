@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+#list {
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 3000px;
+}
+button {
+    background-color: orange;
+    border-radius: 50px;
+    margin: 5px;
+ }
+#add {
+    margin-top: 5px;
+}
