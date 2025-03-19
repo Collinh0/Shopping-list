@@ -12,3 +12,10 @@ mark.addEventListener("click", (event) => {
 });
 clear.addEventListener("click", (event) => {
     console.log("Cleared")});
+const itemArray = []
+add.addEventListener('click',(event) => {
+    event.preventDefault()
+    itemArray.push(input.value)
+    console.log(itemArray)
+    //input.textContent = ""
+})
